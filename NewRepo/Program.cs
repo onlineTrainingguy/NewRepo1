@@ -20,7 +20,7 @@ namespace NewRepo
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();//done
+                    webBuilder.UseStartup<Startup>();//done1
                 });
     }
 }
